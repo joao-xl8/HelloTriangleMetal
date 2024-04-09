@@ -12,6 +12,9 @@ struct HelloTriangleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(width: 100, height: 100)
+            ContentView()
+                .frame(width: 100, height: 100)
         }
     }
 }
